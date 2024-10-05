@@ -50,3 +50,13 @@ English-Excellence/
 └── js/
     └── script.js      # Optional JavaScript file for interactivity
 ```
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/English-Excellence.git
+   ```
+
+2. Navigate to the project directory:
