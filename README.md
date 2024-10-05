@@ -60,3 +60,7 @@ English-Excellence/
    ```
 
 2. Navigate to the project directory:
+
+   ```bash
+   git clone https://github.com/yourusername/English-Excellence.git
+   ```
