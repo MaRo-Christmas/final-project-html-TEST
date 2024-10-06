@@ -20,13 +20,14 @@ The "English Excellence" landing page is designed to provide information about E
 
 ### Main Sections:
 
+- **Header Section**: Contains navigation links for quick access to different sections
 - **Hero Section**: An introduction to the service with a call to action button.
 - **About Us**: Brief description of the platform and its key advantages.
 - **Our Lessons**: Pricing and description of the various lesson packages.
 - **Power of English**: Highlights the benefits of the learning package.
 - **Meet Our Teachers**: Introduction to the teachers on the platform.
 - **Leave an Application**: A form for potential students to submit their contact details.
-- **Testimonials**: Feedback from previous students.
+- **Reviews**: Feedback from previous students.
 - **Footer**: Links to social media and contact information.
 
 ## Technologies Used
@@ -40,15 +41,28 @@ The "English Excellence" landing page is designed to provide information about E
 
 ```bash
 English-Excellence/
-├── index.html         # Main HTML file
-├── css/
+├── index.html        # Main HTML file
+├── css/              # Main CSS folder for styling
+│   ├── animations.css      # Image for Hero section
+│   ├── back-link.css       # Images for teachers
+│   ├── animations.css      # Image for Hero section
+│   ├── animations.css      # Image for Hero section
+│   ├── animations.css      # Image for Hero section
+│   ├── back-link.css
+│   ├── back-link.css
+│   ├── back-link.css
 │   └── styles.css     # Main CSS file for styling
 ├── img/
-│   ├── hero.jpg       # Image for Hero section
-│   ├── teachers/      # Images for teachers
-│   └── logo.png       # Website logo
-└── js/
-    └── script.js      # Optional JavaScript file for interactivity
+│   ├── hero.jpg            # Image for Hero section
+│   ├── teachers/           # Images for teachers
+│   └── logo.png            # Website logo
+├── public/                 # Image for Hero section
+│   └── favicon.ico/
+├── partials/               # Image for Hero section
+│   ├── teachers/           # Images for teachers
+│   └── logo.png
+└── main.js            # Optional JavaScript file for interactivity
+
 ```
 
 ## Installation
