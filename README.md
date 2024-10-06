@@ -41,28 +41,58 @@ The "English Excellence" landing page is designed to provide information about E
 
 ```bash
 English-Excellence/
-├── index.html        # Main HTML file
-├── css/              # Main CSS folder for styling
-│   ├── animations.css      # Image for Hero section
-│   ├── back-link.css       # Images for teachers
-│   ├── animations.css      # Image for Hero section
-│   ├── animations.css      # Image for Hero section
-│   ├── animations.css      # Image for Hero section
-│   ├── back-link.css
-│   ├── back-link.css
-│   ├── back-link.css
-│   └── styles.css     # Main CSS file for styling
-├── img/
-│   ├── hero.jpg            # Image for Hero section
-│   ├── teachers/           # Images for teachers
-│   └── logo.png            # Website logo
-├── public/                 # Image for Hero section
-│   └── favicon.ico/
-├── partials/               # Image for Hero section
-│   ├── teachers/           # Images for teachers
-│   └── logo.png
-└── main.js            # Optional JavaScript file for interactivity
-
+├── index.html                    # Main HTML file
+├── css/                          # Main CSS folder for styling
+│   ├── about.css                 # Styles for the "About" section
+│   ├── animations.css            # CSS animations
+│   ├── application.css           # Styles for the application form
+│   ├── back-link.css             # Styles for the back link
+│   ├── badges.css                # Styles for badges and awards
+│   ├── base.css                  # Base styles and resets
+│   ├── burger.css                # Styles for the burger menu
+│   ├── container.css             # Layout container styles
+│   ├── effects.css               # Visual effects
+│   ├── fonts.css                 # Font styles and imports
+│   ├── footer.css                # Styles for the footer section
+│   ├── header.css                # Styles for the header and navigation
+│   ├── hero.css                  # Styles for the Hero section
+│   ├── lesson.css                # Styles for the lesson section
+│   ├── proposals.css             # Styles for proposals and offers
+│   ├── reset.css                 # CSS reset for consistent styling
+│   ├── reviews.css               # Styles for the reviews section
+│   ├── teachers.css              # Styles for the teachers' section
+│   ├── vite-promo.css            # Styles for Vite promotion section
+│   └── styles.css                # Main CSS file for styling
+├── img/                          # Image assets
+│   ├── about/                    # Images for the "About" section
+│   ├── application/              # Images for the application form
+│   ├── footer/                   # Images for the footer section
+│   ├── hero-background/          # Background images for the Hero section
+│   ├── proposals/                # Images for proposals and offers
+│   ├── reviews/                  # Images for the reviews section
+│   ├── teachers/                 # Images for teachers' section
+│   ├── webp/                     # WebP format images
+│   ├── javascript.svg            # JavaScript logo
+│   ├── sprite.svg                # SVG sprite for icons
+│   ├── vite-logo.png             # Vite logo image
+│   └── logo.svg                  # Website logo
+├── public/                       # Public assets
+│   └── favicon.ico               # Website favicon
+├── partials/                     # HTML partials for modular content
+│   ├── about.html                # HTML partial for the "About" section
+│   ├── application.html          # HTML partial for the application form
+│   ├── back-link.html            # HTML partial for the back link
+│   ├── badges.html               # HTML partial for badges and awards
+│   ├── burger.html               # HTML partial for the burger menu
+│   ├── footer.html               # HTML partial for the footer section
+│   ├── header.html               # HTML partial for the header and navigation
+│   ├── hero.html                 # HTML partial for the Hero section
+│   ├── lesson.html               # HTML partial for the lessons section
+│   ├── proposals.html            # HTML partial for proposals and offers
+│   ├── reviews.html              # HTML partial for the reviews section
+│   ├── teachers.html             # HTML partial for the teachers' section
+│   └── vite-promo.html           # HTML partial for Vite promotion section
+└── main.js                       # Optional JavaScript file for interactivity
 ```
 
 ## Installation
@@ -73,13 +103,21 @@ English-Excellence/
    git clone https://github.com/yourusername/English-Excellence.git
    ```
 
-2. Navigate to the project directory:
+2. Ensure that the LTS version of Node.js is installed on your computer. Download and install it if necessary.
+
+3. Install the project dependencies by running the following command in the terminal:
 
    ```bash
-   cd English-Excellence
+   npm install
    ```
 
-3. Open `index.html` in your preferred browser.
+4. Start the development server by running:
+
+```bash
+ npm run dev
+```
+
+5. Open your browser and navigate to http://localhost:5173. The page will automatically reload as you make changes to the project files.
 
 ## Features
 
@@ -93,9 +131,9 @@ English-Excellence/
 
 The design is optimized for three main breakpoints:
 
-- **Desktop:** 1200px and above.
-- **Tablet:** Between 768px and 1199px.
-- **Mobile:** 767px and below.
+- **Desktop:** 1280px and above.
+- **Tablet:** Between 768px and 1280px.
+- **Mobile:** 768px and below.
 
 Adjustments include:
 
@@ -105,7 +143,7 @@ Adjustments include:
 
 ## Deployment
 
-To deploy this project, you can host it on any static web hosting service, such as GitHub Pages, Netlify, or Vercel.
+To deploy this project, you can host it on any static web hosting service, such as GitHub Pages
 
 ### Steps for GitHub Pages:
 
