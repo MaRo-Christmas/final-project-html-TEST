@@ -140,6 +140,7 @@ Adjustments include:
 - Resizing images and content blocks.
 - Stacking elements vertically on smaller screens.
 - Navigation menu changing to a collapsible format on mobile and tablet.
+- Image optimization (JPEG, WebP, 2x for high resolution screens)
 
 ## Deployment
 
